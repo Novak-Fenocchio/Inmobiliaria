@@ -350,6 +350,34 @@
     /**Responsive design**/
     
     @media screen and (max-width: 700px) {
+        /**Header**/
+        .header {
+            height: 200px;
+            min-height: 100px;
+            text-align: center;
+        }
+        .nav1 {
+            display: none;
+        }
+        .ban {
+            display: block;
+            margin: auto;
+        }
+        .nav2 {
+            font-size: 5vw;
+        }
+        /**Anuncios**/
+        .contenedor-anuncios {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .iconos-referencias {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .iconos-referencias img {
+            width: 40%;
+        }
         /**Blogs y testimoniales**/
         html,
         body {
@@ -370,6 +398,9 @@
         blockquote {
             font-size: 5vw;
             padding: 0;
+        }
+        .span {
+            font-size: 4vw;
         }
         /**Seccion1**/
         .iconos {
@@ -395,8 +426,16 @@
             display: flex;
             flex-wrap: wrap;
         }
-        .entrada-blog img {}
         .tr {
             font-size: 7vw;
+        }
+        /**Footer**/
+        .contenedor-footer {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            text-align: center;
+        }
+        .contenedor-footer .copyright {
+            margin-top: 2vh;
         }
     }
