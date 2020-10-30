@@ -356,19 +356,19 @@
             overflow-x: hidden;
         }
         h2 {
-            font-size: 9vw;
+            font-size: 8vw;
         }
         h3 {
-            font-size: 7vw;
+            font-size: 6vw;
         }
         h4 {
-            font-size: 5vw;
+            font-size: 4vw;
         }
         p {
-            font-size: 5vw;
+            font-size: 4vw;
         }
         blockquote {
-            font-size: 5vw;
+            font-size: 4vw;
             padding: 0;
         }
         .span {
@@ -376,7 +376,7 @@
         }
         /**Header**/
         .header {
-            height: 200px;
+            height: 100px;
             min-height: 100px;
             text-align: center;
         }
@@ -389,6 +389,10 @@
         }
         .nav2 {
             font-size: 5vw;
+        }
+        .header .barra {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
         }
         /**Anuncios**/
         .contenedor-anuncios {
